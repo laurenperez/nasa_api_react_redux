@@ -4,7 +4,7 @@ import '../index.css';
 
 const AstronomyCard = (props) => {
 
-  const { title, url, hdurl, explanation, date, copyright } = props.data
+  const { title, url, hdurl, explanation, date } = props.data
 
   return (
     <div className="astronomy-card">
